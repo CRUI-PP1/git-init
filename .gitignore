@@ -1,0 +1,35 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de compilación
+*.class
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archivos de dependencias
+node_modules/
+venv/
+__pycache__/
+
+# Archivos de log
+*.log
+npm-debug.log*
+
+# Archivos temporales
+*.tmp
+*.temp
+.cache/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local 

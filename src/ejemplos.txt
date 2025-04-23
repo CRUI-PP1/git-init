@@ -1,0 +1,45 @@
+# Ejemplos de Comandos Git
+
+## Inicialización
+```bash
+# Crear nuevo repositorio
+git init
+git add .
+git commit -m "Initial commit"
+```
+
+## Ramas
+```bash
+# Crear y cambiar a nueva rama
+git checkout -b feature/nueva-funcionalidad
+
+# Listar ramas
+git branch
+
+# Eliminar rama
+git branch -d nombre-rama
+```
+
+## Commits
+```bash
+# Hacer commit con mensaje
+git commit -m "feat: agregar nueva funcionalidad"
+
+# Modificar último commit
+git commit --amend
+
+# Ver historial de commits
+git log
+```
+
+## Remoto
+```bash
+# Agregar repositorio remoto
+git remote add origin https://github.com/usuario/repo.git
+
+# Subir cambios
+git push origin main
+
+# Bajar cambios
+git pull origin main
+``` 
